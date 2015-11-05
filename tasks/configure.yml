@@ -1,5 +1,5 @@
 ---
-- name: "Upload Config | {{ logrotate_name }} "
+- name: "Upload Config"
   template:
     src: etc/ntp.conf
     dest: "/etc/ntp.conf
