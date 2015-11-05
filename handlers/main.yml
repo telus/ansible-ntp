@@ -1,0 +1,17 @@
+---
+- name: Reload Service | ntp
+  service:
+    name: ntp
+    state: reloaded
+  tags:
+    - disruptive
+
+- name: Stop Service | ntp
+  service:
+    name: ntp
+    state: stopped
+
+- name: Start Service | ntp
+  service:
+    name: ntp
+    state: started
