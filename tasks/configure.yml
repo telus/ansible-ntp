@@ -1,0 +1,12 @@
+---
+- name: "Upload Config"
+  template:
+    src: etc/ntp.conf
+    dest: "/etc/ntp.conf"
+    owner: root
+    group: root
+    mode: 0644
+  tags:
+    - configuration
+    - template-configuration
+    - ntp

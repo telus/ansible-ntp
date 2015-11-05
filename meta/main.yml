@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: "Connor Yoon"
+  company: "TELUS digital"
+  description: "Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems"
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  categories:
+    - system
