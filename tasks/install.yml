@@ -5,4 +5,3 @@
     pkg: "{{ item }}"
   with_items:
     - ntp
-
