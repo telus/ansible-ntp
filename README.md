@@ -7,7 +7,8 @@
 
 Tunables
 --------
-* `ntp_timezone` (string) - 
+* `ntp_timezone` (string) - _If_ you want to change timezone you can do so here. Default on AWS is UTC.
+* `ntp_server` (list) - A list of ntp servers to use
 
 Dependencies
 ------------
