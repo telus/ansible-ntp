@@ -25,3 +25,10 @@ script:
 
   # check idempotence
   - "ansible-playbook -i tests/inventory tests/$PLAYBOOK --connection=local --sudo"
+
+  # check that ntp is installed
+  - >
+    ntpd -v
+    | grep -q 'ntpd\s[0-9]'
+    && (echo 'ntp is installed' && exit 0)
+    || (echo 'ntp is not installed' && exit 1)
