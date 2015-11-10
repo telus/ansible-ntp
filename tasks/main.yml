@@ -1,0 +1,4 @@
+---
+- require: install.yml
+- require: configure.yml
+- require: service.yml

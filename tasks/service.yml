@@ -1,0 +1,6 @@
+---
+- name: Service | NTP
+  service:
+    name: ntpd
+    state: started
+    enabled: yes
