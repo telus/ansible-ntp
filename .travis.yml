@@ -32,3 +32,10 @@ script:
     | grep -q 'ntpd\s[0-9]'
     && (echo 'ntp is installed' && exit 0)
     || (echo 'ntp is not installed' && exit 1)
+
+  # check that ntp is running
+  - >
+    sudo service ntp status
+    | grep -q 'is running'
+    && (echo 'ntp is running' && exit 0)
+    || (echo 'ntp is not running' && exit 1)
