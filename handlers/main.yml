@@ -1,20 +1,20 @@
 ---
 - name: service | ntp | started
   service:
-    name: ntpd
+    name: ntp
     state: started
 
 - name: service | ntp | stopped
   service:
-    name: ntpd
+    name: ntp
     state: stopped
 
 - name: service | ntp | restarted
   service:
-    name: ntpd
+    name: ntp
     state: restarted
 
 - name: service | ntp | reloaded
   service:
-    name: ntpd
+    name: ntp
     state: reloaded
