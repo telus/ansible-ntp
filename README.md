@@ -9,7 +9,6 @@ Tunables
 --------
 * `ntp_timezone` (string) - 
 
-
 Dependencies
 ------------
 None.
