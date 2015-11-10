@@ -5,7 +5,7 @@
     dest: /etc/localtime
     state: link
     force: yes
-  when: ntp_timezone
+  when: ntp_timezone is defined
 
 - name: Configure | ntp.conf
   template:
