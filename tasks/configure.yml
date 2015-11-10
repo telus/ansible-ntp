@@ -14,4 +14,4 @@
     owner: root
     group: staff
     mode: 0664
-  notify: service | ntp | reloaded
+  notify: service | ntp | restarted
