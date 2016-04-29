@@ -3,6 +3,7 @@
   service:
     name: ntp
     state: started
+    enabled: yes
 
 - name: service | ntp | stopped
   service:
