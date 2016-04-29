@@ -27,4 +27,6 @@ License
 
 Contributors
 ------------
+* Nikki
 * Ben Visser
+
